@@ -1,0 +1,11 @@
+def Calculadora():
+    peso=float(input("ingrese su peso: "))
+    altura=float(input("ingrese su altura: "))
+    print("calculando datos....")
+    altura=altura/100
+    Imc= peso / (altura*altura)
+    print("su Indice de masa corporal es de: ",Imc )
+
+
+if __name__ == "__main__":
+    Calculadora()

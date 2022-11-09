@@ -1,1 +1,2 @@
-Chanchito triste
+print ("Chanchito triste")
+print ("pajaro agresivo")
